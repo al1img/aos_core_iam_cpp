@@ -13,9 +13,9 @@ ExternalProject_Add(
     aoscorecommon
     PREFIX ${aoscorecommon_build_dir}
     GIT_REPOSITORY https://github.com/aosedge/aos_core_common_cpp.git
-    GIT_TAG develop
+    GIT_TAG 5ec0c4fc1b5d9e8cab3898424db24a779145faec
     GIT_PROGRESS TRUE
-    GIT_SHALLOW TRUE
+    GIT_SHALLOW FALSE
     CMAKE_ARGS -Daoscore_build_dir=${aoscore_build_dir}
                -DCMAKE_PROJECT_INCLUDE=${PROJECT_SOURCE_DIR}/cmake/AosCoreLibInclude.cmake
                -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}

@@ -13,9 +13,9 @@ ExternalProject_Add(
     aoscore
     PREFIX ${aoscore_build_dir}
     GIT_REPOSITORY https://github.com/aosedge/aos_core_lib_cpp.git
-    GIT_TAG develop
+    GIT_TAG 515f14cfd94dae9aea5305cf1f4535a1cf925ab6
     GIT_PROGRESS TRUE
-    GIT_SHALLOW TRUE
+    GIT_SHALLOW FALSE
     CMAKE_ARGS -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE} -DCMAKE_INSTALL_PREFIX=${aoscore_build_dir}
                -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} -DWITH_TEST=${WITH_TEST}
     UPDATE_COMMAND ""
