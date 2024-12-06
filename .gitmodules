@@ -4,5 +4,5 @@
 	branch = develop
 [submodule "external/aos_core_common_cpp"]
 	path = external/aos_core_common_cpp
-	url = https://github.com/aosedge/aos_core_common_cpp.git
-	branch = develop
+	url = https://github.com/al1img/aos_core_common_cpp.git
+	branch = fix_fota
